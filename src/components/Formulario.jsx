@@ -118,7 +118,7 @@ function Formulario({pacientes, setPacientes, paciente, setPaciente}) {
             className="block text-gray-700 uppercase font-bold"
             htmlFor="indicaciones"
             >
-              Indicaciones
+              Indicaciones medicas
             </label>
 
             <input 
@@ -173,7 +173,7 @@ function Formulario({pacientes, setPacientes, paciente, setPaciente}) {
             className="block text-gray-700 uppercase font-bold"
             htmlFor="email"
             >
-              Historia del paciente
+              Historial del paciente
             </label>
 
             <textarea 
