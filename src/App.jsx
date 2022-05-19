@@ -26,7 +26,7 @@ function App() {
 
   }, [pacientes])
 
-  
+  //Este es un nuevo comentario para el test de updates de git
 
   const eliminarPaciente = id => {
     const pacientesActualizados = pacientes.filter(paciente => paciente.id !== id)
